@@ -1,0 +1,39 @@
+.ButtonContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.Button {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Button:hover {
+    background-color: #45a049;
+}
+
+.Button:active {
+    background-color: #3e8e41;
+}
+
+.Button:nth-child(4n) {
+    background-color: #ff6347;
+}
+
+.Button:nth-child(4n):hover {
+    background-color: #ff4500;
+}
+
+.Button:nth-child(4n):active {
+    background-color: #e63946;
+}
